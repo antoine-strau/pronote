@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html xml:lang="fr-FR" lang="fr-FR">
+<head>
+            <link rel="preload" href="https://cdn.itslearning.com/v3.128.6.630/Skins/itsl.css" as="style" />
+        
+
+        <link rel="preload" href='https://cdn.itslearning.com/v3.128.6.630/skins/itsl-inuit.min.css' as="style" />
+        <link rel="preload" href="https://cdn.itslearning.com/v3.128.6.630/Skins/JQuery/theme/jquery-ui-1.11.4.custom.css" as="style" />
+
+        
+        <link rel="stylesheet" href="https://cdn.itslearning.com/v3.128.6.630/Skins/itsl.css" />
+        
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <meta name="referrer" content="origin-when-cross-origin" />
+        <meta name="format-detection" content="telephone=no" />
+        <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/jQuery/jquery-1.7.1/jquery-1.7.1.min.js"></script>
+        <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/jQuery/jquery-1.7.1/jquery-ui-1.11.4.custom.min.js"></script>
+        <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/commonControlLibrary.min.js"></script>
+        <link rel="icon" type="image/vnd.microsoft.icon" href="https://cdn.itslearning.com/v3.128.6.630/favicon.ico" />
+        <link rel="apple-touch-icon" href='https://cdn.itslearning.com/v3.128.6.630/touch-icon-iphone.png' />
+        <link rel="apple-touch-icon" sizes="76x76" href='https://cdn.itslearning.com/v3.128.6.630/touch-icon-ipad.png' />
+        <link rel="apple-touch-icon" sizes="120x120" href='https://cdn.itslearning.com/v3.128.6.630/touch-icon-iphone-retina.png' />
+        <link rel="apple-touch-icon" sizes="152x152" href='https://cdn.itslearning.com/v3.128.6.630/touch-icon-ipad-retina.png' />
+
+        
+            <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/Knockout/knockout-3.5.0.js"></script>
+            <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/Knockout/knockout.bindings.child.js"></script>
+        
+
+    <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/Common.js"></script>
+    <script src="https://cdn.itslearning.com/v3.128.6.630/ui/controls/media/javascript/AC_RunActiveContent.js"></script>
+    <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/xmlhttp.js"></script>
+    <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/NetworkLatencyMonitor.js"></script>
+    <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/onboarding/onboarding.min.js"></script>
+<title>
+	gay
+</title></head>
+ <body class='l-topmenu'>
+    <form method="post" action="./DashboardMenu.aspx?LocationType=Hierarchy&amp;LocationId=158" id="aspnetForm">
+<div>
+<input type="hidden" name="__ITSL_CSRF_TOKEN__" id="__ITSL_CSRF_TOKEN__" value="0VqKDax82AEDWg0DABV6HABxNHZiNGhsaXhiM2tsY2xqcHZycnoyMnbo70YlWKRwiGkzJVM7q+xQ8l9E005c3/x4hQwXCjSTR2yp4Lz6MOiIHbZdr1x12TMW4CpJQe3TPdsC+38tpjCF" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzY1NjQ0MjkzDxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWAmYPZBYEZg9kFgJmD2QWCGYPFQE3aHR0cHM6Ly9jZG4uaXRzbGVhcm5pbmcuY29tL3YzLjEyOC42LjYzMC9Ta2lucy9pdHNsLmNzc2QCAQ8VATdodHRwczovL2Nkbi5pdHNsZWFybmluZy5jb20vdjMuMTI4LjYuNjMwL1NraW5zL2l0c2wuY3NzZAICDxUBBXV0Zi04ZAIDDxUEPmh0dHBzOi8vY2RuLml0c2xlYXJuaW5nLmNvbS92My4xMjguNi42MzAvdG91Y2gtaWNvbi1pcGhvbmUucG5nPGh0dHBzOi8vY2RuLml0c2xlYXJuaW5nLmNvbS92My4xMjguNi42MzAvdG91Y2gtaWNvbi1pcGFkLnBuZ0VodHRwczovL2Nkbi5pdHNsZWFybmluZy5jb20vdjMuMTI4LjYuNjMwL3RvdWNoLWljb24taXBob25lLXJldGluYS5wbmdDaHR0cHM6Ly9jZG4uaXRzbGVhcm5pbmcuY29tL3YzLjEyOC42LjYzMC90b3VjaC1pY29uLWlwYWQtcmV0aW5hLnBuZ2QCAQ9kFgxmD2QWAmYPDxYEHghDc3NDbGFzcwURbC1jb21tb24tbWVudS1yb3ceBF8hU0ICAmQWBAIDD2QWAmYPZBYCZg8WAh4FY2xhc3MFEmwtbW9iaWxlLW1lbnUtaWNvbmQCBQ9kFgJmDxYCHwMFFmwtcGVyc29uYWwtbWVudSBoLWZsLXIWQGYPFQEAZAIBDxUEOWN0bDAwX1BlcnNvbmFsUmVzcG9uc2l2ZU1lbnVfT2ZmaWNlMzY1Q2xvdWRFbWFpbENvbnRhaW5lcjwvQ2xvdWRFbWFpbC9Mb2dpbi5hc3B4P0Nsb3VkRW1haWxBY2NvdW50SWQ9MCZNZXNzYWdlT3JpZ2luPTIGX2JsYW5rBTEwMDAwZAICDxYCHwMFJ2wtcGVyc29uYWwtYmFkZ2UtbWVudS1pdGVtIGgtcG9zaXRpb24tchYIZg8VBBJub3RpZmljYXRpb25zLWxpbms1aC1wb3NpdGlvbi1yIGgtcGRsNSBoLXBkcjUgbC1wZXJzb25hbC1tZW51LWl0ZW1zLWxpbmsTbm90aWZpY2F0aW9ucy1iYWRnZQxsLW1haWwtYmFkZ2VkAgEPDxYKHgZIZWlnaHQbAAAAAAAAOEABAAAAHgVXaWR0aBsAAAAAAAA4QAEAAAAeCEltYWdlVXJsBZYBZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQVFNQUFBQWwyMWJLQUFBQUExQk1WRVVBQUFDbmVqM2FBQUFBQVhSU1RsTUFRT2JZWmdBQUFBcEpSRUZVQ0IxallBQUFBQUlBQWMvSU5lVUFBQUFBU1VWT1JLNUNZSUk9HwEFO2gtdmEtbWlkZGxlIGwtcGVyc29uYWwtbWVudS1pY29uLW5vdGlmaWNhdGlvbnMgbC1tZW51LWljb25zHwICggNkZAICDxUCJXNjcmVlbi1yZWFkZXIgc2NyZWVuLXJlYWRlci1mb2N1c2FibGUNTm90aWZpY2F0aW9uc2QCAw8PFgQfAQUiaXRzbC1ub3RpZmljYXRpb25zLXBvcHVwLWNvbnRhaW5lch8CAgJkZAIDDxYCHwMFJ2wtcGVyc29uYWwtYmFkZ2UtbWVudS1pdGVtIGgtcG9zaXRpb24tcmQCBA8WBB8DBSdsLXBlcnNvbmFsLWJhZGdlLW1lbnUtaXRlbSBoLXBvc2l0aW9uLXIeB1Zpc2libGVoZAIFDxYEHwMFJ2wtcGVyc29uYWwtYmFkZ2UtbWVudS1pdGVtIGgtcG9zaXRpb24tch8HaGQCBg8VAi5sLXBlcnNvbmFsLWJhZGdlLW1lbnUtaXRlbSBoLXBvc2l0aW9uLXIgaC1wZGwwNWgtcG9zaXRpb24tciBoLXBkbDUgaC1wZHI1IGwtcGVyc29uYWwtbWVudS1pdGVtcy1saW5rZAIHDxUCJXNjcmVlbi1yZWFkZXIgc2NyZWVuLXJlYWRlci1mb2N1c2FibGUITWVzc2FnZXNkAggPFgIfAwUnbC1wZXJzb25hbC1iYWRnZS1tZW51LWl0ZW0gaC1wb3NpdGlvbi1yFgICAw8PFgQfAQUdaXRzbC1tZXNzYWdlcy1wb3B1cC1jb250YWluZXIfAgICZGQCCQ8VARRsLXBlcnNvbmFsLW1lbnUtbmFtZWQCCg8WAh8DBS5sLWRyb3Bkb3duLW1lbnUtaXRlbSBsLXBlcnNvbmFsLW1lbnUtZGQtaGVhZGVyFgpmDxUBIGwtcGVyc29uYWwtbWVudS1kZC1oZWFkZXItLWNsb3NlZAIBDw8WAh8GBUtodHRwczovL2ZpbGVyZXBvc2l0b3J5Lml0c2xlYXJuaW5nLmNvbS9jZmI4MDc5My0wZTg5LTQ2ZjAtYWE5ZS0wODNlMWYwODdhYWFkZAICDxUCH2wtcGVyc29uYWwtbWVudS1kZC1oZWFkZXItLXRleHQfbC1wZXJzb25hbC1tZW51LWRkLWhlYWRlci0tbmFtZWQCAw8VASJsLXBlcnNvbmFsLW1lbnUtZGQtaGVhZGVyLS1kZXRhaWxzZAIED2QWAmYPFQIxL21haW4uYXNweD9UZXh0VVJMPSUyZlBlcnNvbiUyZkNoYW5nZURldGFpbHMuYXNweCFsLXBlcnNvbmFsLW1lbnUtZGQtaGVhZGVyLS1idXR0b25kAgsPFgIfAwUobC10b3BtZW51LXNlYXJjaGJveCBsLWRyb3Bkb3duLW1lbnUtaXRlbRYCZg8VAUhodHRwczovL2Nkbi5pdHNsZWFybmluZy5jb20vdjMuMTI4LjYuNjMwL2ljb25zL3hwL3NlYXJjaC1tb2Rlcm4taWNvbi5zdmdkAgwPFQEUbC1wZXJzb25hbC1tZW51LW5hbWVkAg0PFQEVbC1wbS1jaGlsZHJlbi0taGVhZGVyZAIODxUBImwtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0tY2hpbGRyZW5kAg8PFgIfAwUhbC1kcm9wZG93bi1tZW51LWl0ZW0gbC1wbS1wcm9maWxlZAIQDxYCHwMFH2wtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0tZmlsZXNkAhEPFgIfAwUibC1kcm9wZG93bi1tZW51LWl0ZW0gbC1wbS1zZXR0aW5nc2QCEg8WBB8DBSVsLWRyb3Bkb3duLW1lbnUtaXRlbSBsLXBtLXN0dWRlbnRwbGFuHwdoZAITDxYCHwMFJGwtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0tYXNzZXNzbWVudGQCFA8WBB8DBSRsLWRyb3Bkb3duLW1lbnUtaXRlbSBsLXBtLWF0dGVuZGFuY2UfB2hkAhUPFgQfAwUkbC1kcm9wZG93bi1tZW51LWl0ZW0gbC1wbS1hdHRlbmRhbmNlHwdoZAIWDxYEHwMFI2wtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0tYmVoYXZpb3VyHwdoZAIXDxYEHwMFLGwtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0tbGVhcm5pbmdvYmplY3RpdmVzHwdoZAIYDxYEHwMFHWwtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0taWxwHwdoZAIZDxYCHwMFHWwtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0taWxwZAIaDxYEHwMFJGwtZHJvcGRvd24tbWVudS1pdGVtIGwtcG0tZXBvcnRmb2xpbx8HaGQCGw8WBB8DBSlsLWRyb3Bkb3duLW1lbnUtaXRlbSBsLXBtLXN0dWRlbnR3b3JrbG9hZB8HaGQCHA8WAh8DBR5sLWRyb3Bkb3duLW1lbnUtaXRlbSBsLXBtLWhlbHBkAh0PFQEgbC1kcm9wZG93bi1tZW51LWl0ZW0gbC1wbS1sb2dvdXRkAh4PFQMobC1kcm9wZG93bi1tZW51LWl0ZW0gbC1wZXJzb25hbC1tZW51LWljcCJsLXBlcnNvbmFsLW1lbnUtaWNwLXRleHQtY29udGFpbmVyGGwtcGVyc29uYWwtbWVudS1pY3AtdGV4dGQCHw8VAR1ub3RpZmljYXRpb25zLW92ZXJsYXktd3JhcHBlcmQCAw8WAh8HaGQCBA9kFgJmD2QWBmYPDxYEHwEFDWgtZGlzcGxheW5vbmUfAgICZBYCAgEPDxYEHwEFHmNjbC1pY29ubGluayBsLXRvZ2dsZS10cmVlbWVudR8CAgJkZAIBDw8WAh8HaGRkAgMPFgQfAwUPbC10b3BtZW51LWFycm93HgV0aXRsZQUoQ2xpcXVlciBwb3VyIHLDqWR1aXJlIGxlIG1lbnUgc3Vww6lyaWV1cmQCBg8WAh8HaGQCBw8WAh8HaBYCAgEPZBYCZg9kFgJmDxUBDEFyYm9yZXNjZW5jZWQCCA8WDB4EbmFtZQUIbWFpbm1lbnUeFXdlYmtpdEFsbG93RnVsbFNjcmVlbgUEdHJ1ZR4SbW96YWxsb3dmdWxsc2NyZWVuBQR0cnVlHg9hbGxvd0Z1bGxTY3JlZW4FBHRydWUeBWFsbG93BRZjYW1lcmEgKjsgbWljcm9waG9uZSAqHgNzcmMFYS9EYXNoYm9hcmQvRGFzaGJvYXJkLmFzcHg/TG9jYXRpb25JRD0xNTgmYW1wO0xvY2F0aW9uVHlwZT1IaWVyYXJjaHkmYW1wO0Rhc2hib2FyZFR5cGU9TXlEYXNoYm9hcmRkZIqjIBOoOqP/FCm38AKF1nvqx69o" />
+</div>
+
+
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/controls/PersonalResponsiveMenu.js" type="text/javascript"></script>
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/controls/PersonalMessagesManager.js" type="text/javascript"></script>
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/controls/PersonalMessagesComposer.js" type="text/javascript"></script>
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/itslTop.js" type="text/javascript"></script>
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/Generated/itslearningweb.generated.js" type="text/javascript"></script>
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/commonControlLibrary.min.js" type="text/javascript"></script>
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/UserStatusHandler.js" type="text/javascript"></script>
+<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/Controls/LeftMenu.js" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="ED524611" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAS8RmTWt4yEBJIiw5ipDz5JXcvC0kf37j/gEc2YOhw4jqiUCuTKUcsdtS7j2vtXQ1JpH/nD2oPtC9O1rZ1Tv5dGCVVZkmuZsFvnGG3oPSERv/MybWk=" />
+</div>
+        <header id='l-header'>
+        
+            <ul class="skiplink-container">
+                <li><a id="skipToContent" href="#ctl00_ContentAreaIframe" class='h-hidden skiplink'>
+                    Accéder au contenu</a></li>
+            </ul>
+            <a id="intnav_menu"></a>
+            <div id="ctl00_CommonMenuRow" class="l-common-menu-row">
+	
+                    
+    <link href='https://cdn.itslearning.com/v3.128.6.630/application/global/topmenu.modern.bundle.css' rel="stylesheet" />
+
+    <nav role="navigation" class='l-main-menu'>
+        <script src="https://cdn.itslearning.com/v3.128.6.630/javascript/Controls/OverflowingMenu.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                var mainMenu = $("ul.l-main-menu-items");
+                var overflowingMenu = new OverflowingMenu();
+
+                overflowingMenu.settings = {"windowResizeTimeoutInMilliseconds":200,"moreMenuId":"mainMoreMenu","cssClasses":{"moreMenu":"l-more-menu"}};
+                overflowingMenu.controls = {
+                    mainMenu: mainMenu,
+                    mainMenuItems: mainMenu.find('li').not('.l-more-menu-btn,.h-hidden, [role="dialog"] li'),
+                    moreButton : mainMenu.find("li.l-more-menu-btn")
+                };
+                overflowingMenu.initialize();
+            });
+        </script>
+        <ul role="menu" class='l-main-menu-items h-is-not-mobile'>
+            
+            
+            
+
+                        <li role="menuitem" onclick="SelectCurrentMenuItem('l-menu-home'); CommonFunctions.measureKpi('/RestApi/common/kpi/v1', 101, 834, 1);"
+                            class="l-tab-menu-text l-menu-home l-menu-itslearning"
+                            data-link ="">
+                            <a href="/main.aspx?TextURL=%2fDashboardMenu.aspx%3fLocationType%3dPersonal%26DashboardType%3dMyPage"
+                                target="_top"
+                                title="Accueil"
+                                class="l-main-menu-lnk">
+                                
+                                    <img src="https://filerepository.itslearning.com/6f83b0c2-0eba-4c96-9621-3cf4e968b9e6?Token=FXocAFoNAwCZEaNiAAAAACAAtUzGApAB70oTmcfAWZbkiOZ8M8Nvh0GRDEK6YtQuRywAAA" class="l-menu-icons" alt="" />
+                                
+                                <span class="l-menu-text">
+                                    Accueil
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+                        <li role="menuitem" aria-haspopup="true" class="l-tab-menu-text l-menu-course js-menuitem--dropdown">
+                            <button type="button" data-action="GetCourses"
+                               class="l-main-menu-lnk">
+                               
+                                    <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                        
+                        <span class="l-menu-text">
+                                    Espaces de travail
+                        </span>
+                        <div class="active-shadow"></div>
+                    </button>
+                            
+
+
+<div class="c-dropdownMenu ccl-context-dialog ccl-dropdownmenu h-no-print show-arrow bottom"
+     role="dialog" aria-hidden="true" data-dropdown="courses" data-personid="1866261">
+    <div class="ccl-context-dialog-arrow"></div>
+    <div class="c-dropdownMenu__navigation">
+            <div class="c-search" tabindex="-1" style="visibility: hidden;">
+                <input placeholder="Rechercher un espace de travail" title="Rechercher des espaces de travail favoris" class="js-titlesFilter" type="text">
+                <button class="js-titlesFilter__clear" style="display: none;" tabindex="-1";>
+                    <span class="sr-only">Effacer</span>
+                </button>
+            </div>
+            <div class="c-dropdown" style="visibility: hidden;">
+                <select>
+                    <option value="lastUpdated">Derni&#232;re mise &#224; jour</option>
+                    <option value="lastVisited">Derni&#232;re visite le</option>
+                    <option value="title">Ordre alphab&#233;tique</option>
+                </select>
+            </div>
+    </div>
+    <div class="c-spinner-bounce u-mv">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+    <script>
+        var coursesSortDropdownScope = {
+            langTerms: {
+                lastUpdated: 'Derni&#232;re mise &#224; jour',
+                lastVisited: 'Derni&#232;re visite le',
+                title: 'Ordre alphab&#233;tique'
+            },
+            kpi: {
+                url: '/RestApi/common/kpi/v1',
+                section: 101,
+                measures: {
+                    search: 920,
+                    title: 923,
+                    lastUpdated: 924,
+                    lastVisited: 925
+                },
+                context: 1
+            }
+        }
+    </script>
+
+
+                        </li>
+
+                    
+                        <li role="menuitem" onclick="SelectCurrentMenuItem('l-menu-course');"
+                            class="l-tab-menu-text moremenu-only l-menu-course"
+                            data-link ="">
+                            <a href="/main.aspx?TextURL=Course%2fAllCourses.aspx&amp;Item=l-menu-course"
+                                target="_top"
+                                title="Liste de tous vos espaces de travail"
+                                class="l-main-menu-lnk">
+                                
+                                    <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                                
+                                <span class="l-menu-text">
+                                    Espaces de travail
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+                        <li role="menuitem" aria-haspopup="true" class="l-tab-menu-text l-menu-project js-menuitem--dropdown">
+                            <button type="button" data-action="GetGroups"
+                               class="l-main-menu-lnk">
+                               
+                                    <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                        
+                        <span class="l-menu-text">
+                                    Communaut&#233;s
+                        </span>
+                        <div class="active-shadow"></div>
+                    </button>
+                            
+
+
+<div class="c-dropdownMenu ccl-context-dialog ccl-dropdownmenu h-no-print show-arrow bottom"
+     role="dialog" aria-hidden="true" data-dropdown="data-projects-dropdown" data-personid="1866261">
+    <div class="ccl-context-dialog-arrow"></div>
+    <div class="c-dropdownMenu__navigation">
+    </div>
+    <div class="c-spinner-bounce u-mv">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+
+
+                        </li>
+
+                    
+                        <li role="menuitem" onclick="SelectCurrentMenuItem('l-menu-project');"
+                            class="l-tab-menu-text moremenu-only l-menu-project"
+                            data-link ="">
+                            <a href="/main.aspx?TextURL=Project%2fAllProjects.aspx&amp;Item=l-menu-project"
+                                target="_top"
+                                title="Liste de tous vos groupes"
+                                class="l-main-menu-lnk">
+                                
+                                    <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                                
+                                <span class="l-menu-text">
+                                    Communaut&#233;s
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+                        <li role="menuitem" onclick="SelectCurrentMenuItem('l-menu-calendar');"
+                            class="l-tab-menu-text l-menu-calendar"
+                            data-link ="">
+                            <a href="/main.aspx?TextURL=Calendar%2fSchedule.aspx&amp;Item=l-menu-calendar"
+                                target="_top"
+                                title="Vos rendez-vous et &#233;v&#233;nements"
+                                class="l-main-menu-lnk">
+                                
+                                    <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                                
+                                <span class="l-menu-text">
+                                    Calendrier
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+                        <li role="menuitem" onclick="SelectCurrentMenuItem('l-menu-mylibrary');"
+                            class="l-tab-menu-text l-menu-mylibrary"
+                            data-link ="">
+                            <a href="/main.aspx?TextURL=LearningToolElement%2fIntermediatePage.aspx%3fPageToRedirect%3dMyLibrary&amp;Item=l-menu-mylibrary"
+                                target="_top"
+                                title="Partager votre contenu avec les autres"
+                                class="l-main-menu-lnk">
+                                
+                                    <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                                
+                                <span class="l-menu-text">
+                                    Biblioth&#232;que
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+                        <li role="menuitem" onclick="SelectCurrentMenuItem('l-menu-module_43');"
+                            class="l-tab-menu-text l-menu-module_43"
+                            data-link ="">
+                            <a href="/main.aspx?TextURL=ExtensionModule%2fExtensionModuleIntermediatePage.aspx%3fExtensionModuleSetupId%3d43%26ItslearningSection%3dTopMenu&amp;Item=l-menu-module"
+                                target="_top"
+                                title="Permet d&#39;afficher les ressources p&#233;dagogiques type CNS, KNE et le GAR."
+                                class="l-main-menu-lnk">
+                                
+                                    <img src="https://platform.itslearning.com/Handlers/ExtensionIconHandler.ashx?ExtensionId=10156&amp;IconSize=1&amp;IconsVersion=0&amp;UseDoubleResolutionIconSizeIfAvailable=True&amp;UseMonochromeIconAsDefault=True" class="l-menu-icons" alt="" />
+                                
+                                <span class="l-menu-text">
+                                    Media Centre
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+                        <li role="menuitem" onclick="SelectCurrentMenuItem('l-menu-module_4');"
+                            class="l-tab-menu-text l-menu-module_4"
+                            data-link ="">
+                            <a href="/ExtensionModule/ExtensionModuleIntermediatePage.aspx?ExtensionModuleSetupId=4&amp;ItslearningSection=TopMenu"
+                                target="_blank"
+                                title="Permet l&#39;acc&#232;s aux connecteurs vers des services tiers."
+                                class="l-main-menu-lnk">
+                                
+                                    <img src="https://platform.itslearning.com/Handlers/ExtensionIconHandler.ashx?ExtensionId=482&amp;IconSize=1&amp;IconsVersion=0&amp;UseDoubleResolutionIconSizeIfAvailable=True&amp;UseMonochromeIconAsDefault=True" class="l-menu-icons" alt="" />
+                                
+                                <span class="l-menu-text">
+                                    Services Externes
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+                        <li role="menuitem" onclick=""
+                            class="l-tab-menu-text l-menu-customlinks_0 l-menu-customlinks_0"
+                            data-link ="">
+                            <a href="https://teleservices.education.gouv.fr"
+                                target="_blank"
+                                title="Ouvrez Scolarit&#233; Services dans une nouvelle fen&#234;tre."
+                                class="l-main-menu-lnk">
+                                
+                                <span class="l-menu-text">
+                                    Scolarit&#233; Services
+                                </span>
+                                <div class="active-shadow"></div>
+                            </a>
+                        </li>
+                    
+
+
+            <li class='l-more-menu-btn l-tab-menu-text'>
+                <button type="button" aria-haspopup="true" aria-expanded="false" class='l-main-menu-lnk'>
+                    <span class='l-menu-text'>Plus</span>
+                </button>
+            </li>
+        </ul>
+        
+    </nav>
+
+
+
+                    
+<script type="text/javascript">
+$(function () {
+    CommonFunctions.setupDropDownMenu(false, $("#mobileMenuLnk"), $("ul.l-main-menu-dropdown"));
+});
+</script>
+    <nav role="navigation" class="l-main-menu h-is-mobile">
+        <ul class="l-mobile-main-menu-items">
+            
+            <li class="l-menu-itslearning h-fl-l">
+                <a class="l-main-menu-lnk" href="/main.aspx?TextURL=%2fDashboardMenu.aspx%3fLocationType%3dPersonal%26DashboardType%3dMyPage" target="_top">
+                    <img class="l-menu-icons" src="https://filerepository.itslearning.com/6f83b0c2-0eba-4c96-9621-3cf4e968b9e6?Token=FXocAFoNAwCZEaNiAAAAACAAtUzGApAB70oTmcfAWZbkiOZ8M8Nvh0GRDEK6YtQuRywAAA" alt="" title="Accueil"/>
+                </a>
+            </li>
+            <li class="l-mobile-menu-icon">
+                <a href="#" id="mobileMenuLnk" class="l-main-menu-lnk">
+                    <i class="l-navicon"></i>
+                    <span class="h-mrl5 l-menu-text">Menu</span>
+                </a>
+                <ul class="l-main-menu-dropdown" style="display: none;">
+                    
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-home'); CommonFunctions.measureKpi('/RestApi/common/kpi/v1', 101, 834, 1);" class="l-menu-home l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=%2fDashboardMenu.aspx%3fLocationType%3dPersonal%26DashboardType%3dMyPage"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Accueil">
+                            
+                            <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                            
+                            <span>Accueil</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-course');" class="l-menu-course l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=Course%2fAllCourses.aspx&amp;Item=l-menu-course"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Liste de tous vos espaces de travail">
+                            
+                            <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                            
+                            <span>Espaces de travail</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-course');" class="l-menu-course l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=Course%2fAllCourses.aspx&amp;Item=l-menu-course"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Liste de tous vos espaces de travail">
+                            
+                            <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                            
+                            <span>Espaces de travail</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-project');" class="l-menu-project l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=Project%2fAllProjects.aspx&amp;Item=l-menu-project"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Liste de tous vos groupes">
+                            
+                            <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                            
+                            <span>Communaut&#233;s</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-project');" class="l-menu-project l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=Project%2fAllProjects.aspx&amp;Item=l-menu-project"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Liste de tous vos groupes">
+                            
+                            <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                            
+                            <span>Communaut&#233;s</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-calendar');" class="l-menu-calendar l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=Calendar%2fSchedule.aspx&amp;Item=l-menu-calendar"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Vos rendez-vous et &#233;v&#233;nements">
+                            
+                            <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                            
+                            <span>Calendrier</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-mylibrary');" class="l-menu-mylibrary l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=LearningToolElement%2fIntermediatePage.aspx%3fPageToRedirect%3dMyLibrary&amp;Item=l-menu-mylibrary"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Partager votre contenu avec les autres">
+                            
+                            <img src="https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png" class="l-menu-icons" alt="" />
+                            
+                            <span>Biblioth&#232;que</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-module_43');" class="l-menu-module_43 l-dropdown-menu-item">
+                        <a href="/main.aspx?TextURL=ExtensionModule%2fExtensionModuleIntermediatePage.aspx%3fExtensionModuleSetupId%3d43%26ItslearningSection%3dTopMenu&amp;Item=l-menu-module"
+                            target="_top"
+                            class="l-mobile-buttons"
+                            title="Permet d&#39;afficher les ressources p&#233;dagogiques type CNS, KNE et le GAR.">
+                            
+                            <img src="https://platform.itslearning.com/Handlers/ExtensionIconHandler.ashx?ExtensionId=10156&amp;IconSize=1&amp;IconsVersion=0&amp;UseDoubleResolutionIconSizeIfAvailable=True&amp;UseMonochromeIconAsDefault=True" class="l-menu-icons" alt="" />
+                            
+                            <span>Media Centre</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="SelectCurrentMenuItem('l-menu-module_4');" class="l-menu-module_4 l-dropdown-menu-item">
+                        <a href="/ExtensionModule/ExtensionModuleIntermediatePage.aspx?ExtensionModuleSetupId=4&amp;ItslearningSection=TopMenu"
+                            target="_blank"
+                            class="l-mobile-buttons"
+                            title="Permet l&#39;acc&#232;s aux connecteurs vers des services tiers.">
+                            
+                            <img src="https://platform.itslearning.com/Handlers/ExtensionIconHandler.ashx?ExtensionId=482&amp;IconSize=1&amp;IconsVersion=0&amp;UseDoubleResolutionIconSizeIfAvailable=True&amp;UseMonochromeIconAsDefault=True" class="l-menu-icons" alt="" />
+                            
+                            <span>Services Externes</span>
+                        </a>
+                    </li>
+                    
+                    <li onclick="" class="l-menu-customlinks_0 l-dropdown-menu-item">
+                        <a href="https://teleservices.education.gouv.fr"
+                            target="_blank"
+                            class="l-mobile-buttons"
+                            title="Ouvrez Scolarit&#233; Services dans une nouvelle fen&#234;tre.">
+                            
+                            <span>Scolarit&#233; Services</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+                    <nav id="ctl00_PersonalResponsiveMenu_PersonalMenuNavigation" role="navigation" class="l-personal-menu h-fl-r">
+    
+    <ul role="menubar" class='l-personal-menu-items h-hlist'>
+        <li role="menuitem" class="l-personal-badge-menu-item h-position-r">
+            
+            <button name="notifications" id="notifications-link" type="button" class="h-position-r h-pdl5 h-pdr5 l-personal-menu-items-link">
+                <span id="notifications-badge" class="l-mail-badge" style="display:none" aria-live="polite"></span>
+                <img class="h-va-middle l-personal-menu-icon-notifications l-menu-icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCB1jYAAAAAIAAc/INeUAAAAASUVORK5CYII=" alt="" style="height:24px;width:24px;" />
+                <span class="screen-reader screen-reader-focusable">Notifications</span>
+            </button>
+
+            <div id="ctl00_PersonalResponsiveMenu_NotificationsPopup" class="itsl-notifications-popup-container" aria-hidden="false" style="display: none;">
+
+	</div>
+            </li>
+
+        <li id="ctl00_PersonalResponsiveMenu_EmailInboxContainer" role="menuitem" class="l-personal-badge-menu-item h-position-r">
+                <a id="ctl00_PersonalResponsiveMenu_EmailInboxLink" title="Boîte de réception" class="h-position-r h-pdl5 h-pdr5 l-personal-menu-items-link" href="/main.aspx?TextURL=Messages%2fMessages.aspx&amp;Item=l-menu-messages" target="_parent"><span id="ctl00_PersonalResponsiveMenu_EmailInboxLink_badge" class="l-mail-badge" style="display:none;"></span><img id="ctl00_PersonalResponsiveMenu_EmailInboxLink_image" class="h-va-middle l-personal-menu-icon-email l-menu-icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCB1jYAAAAAIAAc/INeUAAAAASUVORK5CYII=" alt="" style="height:24px;width:24px;" /></a>
+            </li>
+            
+            
+            <li role="menuitem" class='l-personal-badge-menu-item h-position-r h-pdl0' aria-haspopup="true">
+                <button name="messages" type="button" class="h-position-r h-pdl5 h-pdr5 l-personal-menu-items-link l-personal-menu-instantmessage">
+                    <span aria-live="polite" class="l-mail-badge l-personal-menu-instantmessage-count h-displaynone" style="">1</span>
+                    <svg class="h-va-middle l-menu-icons l-personal-menu-icon-instantmessage" focusable="false">
+                      <path d="M24 8C24 5.53 22.48 4 20 4L11 4C8.52 4 7 5.53 7 8 7 8 7 13 7 14 7 15 7.56 16.96 10 17L12 17 12 21.45C12 21.72 12.16 21.79 12.36 21.59L17 17 20 17C22.48 16.96 24 15.47 24 13L24 8Z" id="Fill-3"/>
+                    </svg>
+                    <span class="screen-reader screen-reader-focusable">Messages</span>
+                </button>
+            </li>
+        
+
+        <li role="menuitem">
+            <button id="personal-menu-link" aria-expanded="false" type="button"
+                class='h-pdl5 h-pdr5'
+                data-menu-open="false">
+                <span class="l-personal-menu-name">
+                    <img id="pm-user-status-image"
+                        class="h-va-middle l-personal-menu-icon-useronline l-menu-icons"
+                        src="https://filerepository.itslearning.com/a0be3da3-5fc1-411f-b1b5-f99292347487"
+                        alt="Ouvrir votre menu personnel" width="24" height="24"/>
+                    <span class='h-va-middle h-is-not-mobile'>STRAUSS, Antoine</span>
+                    <img class='h-arrow-down l-personal-menu-arrow-down h-va-middle h-mrr5' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCB1jYAAAAAIAAc/INeUAAAAASUVORK5CYII=" alt="" />
+                </span>
+            </button>
+            <ul id="personal-menu-dd" role="menu" hidden
+                class='l-personal-menu-dd l-personal-menu-dd-right h-vlist h-pdb10 h-pdt10'>
+
+                
+                <li role="menuitem" class="l-dropdown-menu-item l-personal-menu-dd-header">
+                    <button class="l-personal-menu-dd-header--close"
+                            name="closePersonalMenu"
+                            type="button"
+                            aria-label="Fermer votre menu personnel">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div>
+                        <img src="https://filerepository.itslearning.com/cfb80793-0e89-46f0-aa9e-083e1f087aaa" alt="" />
+                        <div class="l-personal-menu-dd-header--text">
+                            <div class="l-personal-menu-dd-header--name">STRAUSS, Antoine</div>
+                            <div class="l-personal-menu-dd-header--details">El&#232;ve, e-lyco</div>
+                            <div>
+                                <a href="/main.aspx?TextURL=%2fPerson%2fChangeDetails.aspx"
+                                   class="l-personal-menu-dd-header--button">
+                                    <span>Modifier les détails</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li role="menuitem" class="l-topmenu-searchbox l-dropdown-menu-item">
+                        <img class="ccl-searchtextbox-personalmenu-icon" alt="" src="https://cdn.itslearning.com/v3.128.6.630/icons/xp/search-modern-icon.svg"/>
+                        <span id="ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_C" class="ccl-searchtextbox ccl-searchtextbox-personalmenu"><a id="ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_IL" class="ccl-iconlink h-pd0 ccl-searchtextbox-icon" href="UI/WebControls/Specific/UserControls/TopMenu/#" style="display:none;"></a><label for="ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_STB" class="ccl-searchtextbox-hidden-label"></label><label for="ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_FTB" class="ccl-searchtextbox-hidden-label"></label><input name="ctl00$PersonalResponsiveMenu$PersonalMenuSearchBox$FTB" type="text" readonly="readonly" id="ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_FTB" tabindex="-1" /><input name="ctl00$PersonalResponsiveMenu$PersonalMenuSearchBox$STB" type="text" maxlength="50" id="ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_STB" title="Rechercher" /><input type="hidden" name="ctl00$PersonalResponsiveMenu$PersonalMenuSearchBox$SearchKeyStorage" id="ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_SearchKeyStorage" /></span>
+                </li>
+
+                <li role="menuitem" class='h-is-mobile l-dropdown-menu-item l-pm-user-name'>
+                    <a href="#" class='l-mobile-buttons h-dsp-b'>
+                        <span class="l-personal-menu-name">STRAUSS, Antoine</span>
+                    </a>
+                </li>
+
+                
+                
+
+                
+                <li role="menuitem" class="l-dropdown-menu-item l-pm-profile">
+                    <a href="/Person/show_person.aspx?PersonId=1866261&amp;Customer=200026&amp;FromTopMenu=1" onclick="javascript: return (OpenPopup(this, 'resizable,scrollbars,height=500,width=750', '') == null);" title="Ouvrir le profil de STRAUSS, Antoine" class='h-pdl10 h-pdr10 l-mobile-buttons'>
+                        <span class='l-personal-menu-icon l-personal-menu-icon-profileinfo'></span>
+                        <span class='h-va-middle'>Profil</span>
+                    </a>
+                </li>
+
+                
+                <li id="ctl00_PersonalResponsiveMenu_YourFilesMenuItemId" role="menuitem" class="l-dropdown-menu-item l-pm-files">
+                    <a href="/main.aspx?TextURL=%2fFileExplorer%2fBrowseFiles.aspx"
+                        class='h-pdl10 h-pdr10 l-mobile-buttons'>
+                        <span class='l-personal-menu-icon l-personal-menu-icon-yourfiles'></span>
+                        <span class='h-va-middle'>Vos fichiers</span>
+                    </a>
+                </li>
+
+                
+                <li role="menuitem" class="l-dropdown-menu-item l-pm-settings">
+                    <a href="/main.aspx?TextURL=Person%2fSettings.aspx&amp;Item=l-menu-settings" class='h-pdl10 h-pdr10 l-mobile-buttons' target="_top">
+                        <span class='l-personal-menu-icon l-personal-menu-icon-mysettings'></span>
+                        <span class='h-va-middle'>Vos paramètres</span>
+                    </a>
+                </li>
+
+                
+                <li role="separator" class="l-pm-separator" />
+
+                
+                
+
+                
+                <li role="menuitem" class="l-dropdown-menu-item l-pm-assessment">
+                    <a href="/main.aspx?TextURL=%2fPerson%2fPersonAssessment.aspx"
+                        class='h-pdl10 h-pdr10 l-mobile-buttons'>
+                        <span class='l-personal-menu-icon l-personal-menu-icon-assessmentrecord'></span>
+                        <span class='h-va-middle'>Rapport d'évaluations</span>
+                    </a>
+                </li>
+
+                
+                
+
+            
+            
+
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                <li role="menuitem" class="l-dropdown-menu-item l-pm-ilp">
+                    <a href="/main.aspx?TextURL=%2fIlp%2fStudentReports%2fStudentReportView%3fRole%3dStudent%26ReportId%3d0"
+                       class='h-pdl10 h-pdr10 l-mobile-buttons'>
+                        <img class='h-va-middle l-personal-menu-icon-individuallearningplan'
+                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCB1jYAAAAAIAAc/INeUAAAAASUVORK5CYII=" alt="" width="24" height="24" />
+                        <span class='h-va-middle'>Plans d'apprentissage individuels</span>
+                    </a>
+                </li>
+
+                
+                
+
+                
+                
+
+                
+                <li role="separator" class="l-pm-separator" />
+
+                
+                <li role="menuitem" class="l-dropdown-menu-item l-pm-help">
+                    <a href="/help.aspx?CID=200026&amp;LID=11&amp;DefLanguage=11&amp;URL=" onclick="javascript:return OpenHelp2('/help.aspx?CID=200026&amp;LID=11&amp;DefLanguage=11&amp;URL=')" target="_blank" title="Ouvrir l'aide de itslearning dans une nouvelle fenêtre" class='h-pdl10 h-pdr10 l-mobile-buttons'>
+                        <span class='l-personal-menu-icon l-personal-menu-icon-help'></span>
+                        <span class='h-va-middle'>Aide</span>
+                    </a>
+                </li>
+
+                
+                <li role="menuitem" class="l-dropdown-menu-item l-pm-logout">
+                    <a href="javascript:void(0);" onclick="LogOut();" class='h-pdl10 h-pdr10 l-mobile-buttons'>
+                        <span class='l-personal-menu-icon l-personal-menu-icon-logout'></span>
+                        <span class='h-va-middle'>Se déconnecter</span>
+                    </a>
+                </li>
+
+                
+                
+            </ul>
+        </li>
+
+    
+
+    </ul>
+
+    
+        <script type="text/javascript" src="https://cdn.itslearning.com/v3.128.6.630/javascript/SignalRScripts/jquery.signalR-2.4.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.itslearning.com/v3.128.6.630/javascript/SignalRScripts/signalRHub.min.js"></script>
+        <script type="text/javascript" src="https://cdn.itslearning.com/v3.128.6.630/javascript/Knockout/knockout-3.5.0.js"></script>
+        <script type="text/javascript" src="https://cdn.itslearning.com/v3.128.6.630/javascript/Selectize/selectize.custom.min.js"></script>
+        <script type="text/javascript" src="https://cdn.itslearning.com/v3.128.6.630/javascript/Selectize/selectize-plugin-a11y.min.js"></script>
+        <script type="text/javascript" src="https://cdn.itslearning.com/v3.128.6.630/javascript/emoji/emoji.min.js"></script>
+        <script type="text/javascript" src="https://cdn.itslearning.com/v3.128.6.630/javascript/xregexp/xregexp-all.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                FlyOutPopupInit('/instantmessage/instantmessage');  
+            });
+        </script>
+    </nav>
+
+                
+</div>
+            <div class='h-fl-c'></div>
+            <div class="l-header-mask"></div>
+        </header>
+
+        <div class="c-messages c-messages-popup c-secondary-nav c-secondary-nav--right" aria-label="submenu" aria-hidden="true" aria-haspopup="true">
+            <!-- Insert html for popup/flyout-menu here -->
+        </div>
+
+        
+        
+        
+        <div style="position: relative; display: none;">
+            
+<section class='l-quick-orientation h-is-not-mobile' id="l-quick-orientation">
+    <div class='l-crumbs-wrapper'>
+        <div class='l-favourite-section'>
+            <div id="ctl00_BottomNavigationBar_LeftMenuTogglerWrapper" class="h-displaynone">
+	
+                <a id="ctl00_BottomNavigationBar_LeftMenuToggler" class="ccl-iconlink l-toggle-treemenu" onclick="javascript:void(0);"></a>
+            
+</div>
+            
+        </div>
+        <nav class="h-is-not-mobile" role="navigation"><ul class="l-crumbs h-hlist" id="crumbs"></ul></nav>
+    </div>
+    <a href="javascript:void(0);" id="ctl00_BottomNavigationBar_ArrowButton" class="l-topmenu-arrow" title="Cliquer pour réduire le menu supérieur">
+        <img src='https://cdn.itslearning.com/v3.128.6.630/icons/1x1.png' class='h-arrow-up' alt="" />
+    </a>
+</section>
+
+            <div class="l-header-mask"></div>
+        </div>
+        
+        <section class="l-main">
+            
+            <section class="l-main-content">
+                <main role="main">
+                
+                <div style="-webkit-overflow-scrolling:touch;overflow:auto;">
+                    <iframe src="/Dashboard/Dashboard.aspx?LocationID=158&amp;LocationType=Hierarchy&amp;DashboardType=MyDashboard" id="ctl00_ContentAreaIframe" height="800" style="width: 100%; border: none;" name="mainmenu" webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true" allow="camera *; microphone *"></iframe>
+                </div>
+                </main>
+            </section>
+        </section>
+        <div id="ctl00_GlobalFeedback_Container">
+	
+    <div id="ctl00_GlobalFeedback_Feedback_InformationFeedbackContainer" class="ccl-info-feedback" style="display:none;">
+		<div id="ctl00_GlobalFeedback_Feedback_InformationFeedbackBodyContainer" class="ccl-info-feedback-body">
+			<span class="ccl-info-feedback-message"></span>
+		</div><div class="ccl-info-feedback-close-container">
+
+		</div><div class="ccl-info-feedback-buttons">
+			<div class="ccl-info-feedback-extra-container">
+
+			</div><div class="ccl-info-feedback-dismiss-container">
+
+			</div>
+		</div>
+	</div>
+
+</div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+function SelectCurrentLocation(currentLocation, pathFromHome, elementId) 
+{
+    var top = window.itslTop || window.top;
+
+    if(top[CCL.CommonWindowMessages.MessageNames.suspendUpdateBreadCrumbsAndNavigation])
+    {
+        return;
+    }
+
+    // start
+    var html = '';
+
+    if (pathFromHome)
+    {
+        // each path
+        html += pathFromHome;
+
+        // current
+        html += '<li><span class=\"l-breadcrumbs-separator\">/</span><span class=\"l-selected-crumb\">' + currentLocation + '</span></li>';
+    } else {
+        // current
+        html += '<li><span class=\"l-selected-crumb\">' + currentLocation + '</span></li>';
+    }
+    // starred
+    // update crumbs
+    var crumbCtrl = document.getElementById('crumbs');
+    if(crumbCtrl)
+        crumbCtrl.innerHTML = html;
+}
+var settings = {
+    app: {
+        is_instant_message_system_enabled: true,
+        signal_r_endpoint: 'https://eu1realtime.itslearning.com/signalr/hubs'
+    }
+};
+
+if (typeof(window.itslearning) != 'object'){
+    window.itslearning = {};
+}
+
+if (typeof(window.itslearning.instantmessaging) != 'object'){
+    window.itslearning.instantmessaging = {};
+}
+
+if (typeof(window.itslearning.settings) != 'object'){
+    window.itslearning.settings = {};
+}
+
+for (var property in settings) {
+    window.itslearning.settings[property] = settings[property];
+}
+$(function() {
+var p = new PersonalResponsiveMenuInit('PersonalMenuInboxInstance');
+p.settings = {"isIos":false,"searchTextEvent":"textSearch","searchPlaceholder":"***","isAndroidBrowser":false,"shouldOpenMessagesPopUp":false,"hasInternalMessages":true,"isInternalMessagesDefaultAccount":true,"hasCloudEmail":false,"hasEmail":false,"showPersonalNotificationsAsOverlay":false,"cssClasses":{"popupContainer":"ccl-notification-popup","unreadNotificationItem":"itsl-notification-item-unread","opaque":"h-opaque","unreadMessageItem":"itsl-message-item-unread"},"messageCounterIds":{"internalMessagesCounter":"pm-inbox-messages-not-mobile","cloudMessagesCounter":"pm-inbox-cloud-email-not-mobile","emailMessagesCounter":"pm-inbox-email-not-mobile"},"terms":{"errorMessage":"Une erreur système s\u0027est produite. Réessayez ou contactez votre administrateur.","close":"Fermer"},"urls":{"searchMainPageNavigateUrl":"/main.aspx?Item=l-menu-search\u0026TextURL=Search%2fsearch_info.aspx%3fSearch%3dtrue%26Text%3d***","personalNotificationSourceUrl":"/RestApi/notifications/getPersonalNotifications","personalMessageSourceUrl":"/RestApi/message/getPersonalMessages","updateReadNotifications":"/RestApi/notifications/updateReadNotifications","updateAllNotificationsAsSeen":"/RestApi/notifications/seenmark/all/v1"},"onlineInfoCookie":{"name":"OnlineInfo","unreadMessagesKey":"ui","unreadEmailKey":"ue"},"primaryCloudEmailType":"Gmail","queryStringParameters":{"emailAccountsRedirect":"EmailAccountsRedirect","emailRedirect":"EmailRedirect","accountID":"AccountID","textURL":"TextURL"}};
+p.controls = 
+{
+    personalMenuLink: $('#personal-menu-link'),
+    personalMenuDropDown: $('#personal-menu-dd'),
+    inboxMenuLink: $('#ctl00_PersonalResponsiveMenu_EmailInboxLink'),
+    searchBoxMobile: $('#ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_C'),
+    notificationDialogContent: $('#ctl00_PersonalResponsiveMenu_NotificationsPopup'),
+    messageDialogContent: $('#ctl00_PersonalResponsiveMenu_MessagesPopup'),
+    notificationLink: $('#notifications-link'),
+    notificationsBadge: $('#notifications-badge'),
+    messagesBadge: $('#ctl00_PersonalResponsiveMenu_EmailInboxLink_badge'),
+    gmailCloudEmailIconLink: $('#ctl00_PersonalResponsiveMenu_GmailCloudEmailIconLink'),
+    gmailCloudEmailBadge: $('#ctl00_PersonalResponsiveMenu_GmailCloudEmailIconLink_badge'),
+    office365CloudEmailIconLink: $('#ctl00_PersonalResponsiveMenu_Office365CloudEmailIconLink'),
+    office365CloudEmailBadge: $('#ctl00_PersonalResponsiveMenu_Office365CloudEmailIconLink_badge'),
+    emailMenuLink: $('#ctl00_PersonalResponsiveMenu_EmailInboxLink'),
+    emailBadge: $('#ctl00_PersonalResponsiveMenu_EmailInboxLink_badge')
+};
+p.toggleMenuLinkFunction = function() {
+    var link = document.getElementById('personal-menu-link');
+    var pmUserStatusImage = document.getElementById('pm-user-status-image');
+    link.dataset.menuOpen === 'true' ? 
+        pmUserStatusImage.title = 'Ouvrir votre menu personnel' :  
+        pmUserStatusImage.title = 'Fermer votre menu personnel';
+
+    link.dataset.menuOpen = link.dataset.menuOpen === 'true' ? false : true;
+    link.setAttribute('aria-expanded', link.getAttribute('aria-expanded') === 'false');
+    var personalMenuDropDown = document.getElementById('personal-menu-dd');
+    personalMenuDropDown.hidden = !personalMenuDropDown.hidden;
+};
+p.initialize();
+
+window.OnUpdateInboxInfo = function(unreadInternalMessages, office365CloudEmailUnreadMessages, gmailCloudEmailUnreadMessages, unseenNotifications, unreadEmailMessages, topEmailAccountId)
+{
+    p.setUnreadInternalMessages(unreadInternalMessages);
+    p.setUnreadCloudEmailMessages(office365CloudEmailUnreadMessages, gmailCloudEmailUnreadMessages);
+    p.unseenNotifications = unseenNotifications;
+    p.setUnreadEmailMessages(unreadEmailMessages, topEmailAccountId);
+    p.setCounts();
+};
+
+});
+function LogOut(){
+	top.location = "https://elyco.itslearning.com/elogin/logout.aspx";
+}
+
+function OpenWindow(url)
+{
+    window.open(url,"","height=340,width=560,toolbar=no,scrollbars=yes,status=no,menubars=no,resizable=no");
+}
+
+window.TopMenuUserStatusHandler = new UserStatusHandler({
+    onUpdateInboxFuncName: 'OnUpdateInboxInfo', 
+    keepAliveServiceUrl: '/RestApi/keepalive/online/v1',
+    updateStatusEnabled: true
+});
+
+window.TopMenuUserStatusHandler.initialize(
+    3000,
+    600000);
+
+ TrackNetworkLatency({"networkLatencyPingUrl":"/RestApi/networklatency/ping/v1","networkLatencySaveMeasureUrl":"/RestApi/networklatency/measure/v1"});
+
+function SelectCurrentMenuItem(menuItem, currentUrl)
+{ 
+    var top = window.itslTop || window.top;
+
+    if(top[CCL.CommonWindowMessages.MessageNames.suspendUpdateBreadCrumbsAndNavigation])
+    {
+        return;
+    }
+
+    $('ul.l-main-menu-items li.active, ul.l-personal-menu-list li.active, ul.l-mobile-main-menu-items li.active, ul.l-more-menu li.active').removeClass('active');
+    if($('ul.l-mobile-main-menu-items li.l-menu-course').length > 1)
+    {
+         $('ul.l-mobile-main-menu-items li.l-menu-course').first().remove();
+    }
+    if($('ul.l-mobile-main-menu-items li.l-menu-project').length > 1)
+    {
+         $('ul.l-mobile-main-menu-items li.l-menu-project').first().remove();
+    }
+
+    if (menuItem)
+    {
+        var newCurrentTab = $('.' + menuItem);
+        if (newCurrentTab !== null && newCurrentTab.length > 0) {
+            newCurrentTab.addClass('active');
+    
+            if ( newCurrentTab[0].dataset && newCurrentTab[0].dataset.link ) 
+            {
+                setTimeout( function () 
+                {                 
+                    if (currentUrl) 
+                    {
+                        var url = new Url(document.location.href);
+                        url.appendOrUpdateParam('TextUrl', encodeURIComponent(currentUrl));
+
+                        top.history.replaceState({ menuItem: menuItem }, '', url.value);
+                    } 
+                    else 
+                    {
+                        top.history.replaceState({ menuItem: menuItem }, '', newCurrentTab[0].dataset.link);top.history.replaceState({ menuItem: menuItem }, '', newCurrentTab[0].dataset.link);
+                    }
+                }, 500 );
+            }
+        }
+    }
+}
+CCL.CommonFunctions.attachPostMessageEventListener($(window), 'selectCurrentMenuItem', function(data) {
+    SelectCurrentMenuItem(data.extendedData.menuItemCssClass, data.extendedData.currentUrl);
+});
+
+                function HideSubMenu(menuItem, currentUrl)
+                    {
+                    var submenu = document.querySelector('.l-main-content-header');
+
+                    if (submenu)
+                    { 
+                        submenu.hidden = true;
+                    }
+                }
+            
+$(function()
+{
+var l = new LeftMenu();
+l.settings = {"treeMenuClientID":"ctl00_TreeMenu_ViewPort","contentAreaIframeClientID":"ctl00_ContentAreaIframe","arrowButtonClientID":"ctl00_BottomNavigationBar_ArrowButton","cssClasses":{"topMenuArrow":"l-topmenu-arrow"}};
+l.initialize();
+window["resizeCallback"] = function(iframeSize)
+{
+    l.recalculateHeight(iframeSize.height);
+    
+    l.fixChromeBugWithArrow();
+};
+}
+);$(function() { IframeResizer.registerDefaultHeight({"iframeClientId":"ctl00_ContentAreaIframe","setIframeDefaultHeightFunctionName":"setIframeDefaultHeight","useMinHeight":false}, resizeCallback);});$(function() { IframeClickEventHelper.handleDocumentClickBubblingOnTop(); });
+CommonFunctions.attachPostMessageEventListener($(window), ['maskNavigationBar', 'unmaskNavigationBar'], function(data, source) {
+    var showMask = (data.messageName === 'maskNavigationBar');
+    $('.l-header-mask, .l-sidebar-mask').toggle(showMask);
+    $('body').toggleClass('l-has-mask', showMask);
+    if(source !== source.top) {
+        CommonFunctions.makePostMessageCall(source, new CommonWindowMessages.GenericMessage(data.messageName));
+    }
+});
+new ItslearningWeb.TreeLink.GenericTreeLinkNavigationHandler({"IsTreeLinksEnabledInExtensions":true,"TreeLinksGetInfoForCustomNavigation":"/RestApi/treelinks/treeLinks/{id}/{sourceElementId}/v1","Terms":{"ErrorOccurred":"Une erreur s\u0027est produite.","TreeLinkIsInLibrary":"Ce lien renvoie à une autre ressource qui ne peut pas être prévisualisée dans la Bibliothèque."},"KpiSettings":{"url":"/RestApi/common/kpi/v1","section":74,"context":1,"addTreeLinkMeasurement":1387,"clickOnTreeLinkMeasurement":1388}}, 'ctl00_GlobalFeedback_Container');
+$(function () {
+var sb = new SearchTextBox("ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox", false);
+sb.controlIds = 
+{
+    searchInputId: "ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_STB",
+    containerId: "ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_C",
+    searchLinkId: "ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_IL",
+    fakeInputId: "ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_FTB",
+    searchKeyStorageId: "ctl00_PersonalResponsiveMenu_PersonalMenuSearchBox_SearchKeyStorage"
+};
+sb.settings = {"watermarkText":"Rechercher","watermarkCssClass":"ccl-searchtextbox-watermark","textSearchEvent":"textSearch","clearByEsc":true,"usePostBack":false,"postBackReference":null,"focusRequiredCssClass":"focus-required","selectAllText":null};
+sb.initialize();
+
+});
+
+$(function() {
+    var $informationFeedback = $("#ctl00_GlobalFeedback_Feedback_InformationFeedbackContainer");
+    var settings = {"MainContainerClientId":"ctl00_GlobalFeedback_Container","HideDismissButton":true,"InitialMessage":null,"OnSeenCallback":null,"DismissButtonText":"OK","CloseButtonInnerHtml":"\u003csvg viewBox=\"0 0 2000 2000\" role=\"presentation\"\u003e\u003cpath xmlns=\"http://www.w3.org/2000/svg\" d=\"M998.039 1108.56l722.974 721.26c29.792 29.722 77.998 29.796 107.882.165l.002-.001a76.498 76.498 0 0 0 .199-108.442l-722.448-721.591 722.904-721.19a76.084 76.084 0 0 0 .064-107.667l-.975-.974c-29.701-29.702-77.852-29.717-107.57-.033L998.039 892.262 279.176 174.254c-29.987-29.952-78.573-29.937-108.543.033l-.002.002a76.778 76.778 0 0 0-22.487 54.332 76.781 76.781 0 0 0 22.553 54.308L889.43 999.951 170.446 1718.08a76.183 76.183 0 0 0 .197 108.004l.439.435c29.764 29.511 77.776 29.439 107.449-.165l719.508-717.794z\" /\u003e\u003c/svg\u003e","CloseButtonTitle":"Fermer","CssClasses":{"FeedbackContainer":"ccl-info-feedback","BodyContainer":"ccl-info-feedback-body","ButtonsContainer":"ccl-info-feedback-buttons","CloseButtonContainer":"ccl-info-feedback-close-container","MessageText":"ccl-info-feedback-message","CloseButton":"ccl-info-feedback-closebutton","ExtraButton":"ccl-info-feedback-extrabutton","DismissButton":"ccl-info-feedback-dismissbutton","IsVisible":null}};
+    new CCL.InformationFeedback($informationFeedback, settings);
+
+    if (settings.InitialMessage) {
+        var feedbackContainer = $('#ctl00_GlobalFeedback_Container');
+        CCL.InformationFeedback.showFeedback(feedbackContainer, settings.InitialMessage);
+    }
+});
+$(function() { IframeClickEventHelper.registerDocumentClickBubblingOnTop(); });attachOnReadySendTitleToParent();$(function(){ItslearningWeb.TopMenu.BottomNavigationBar({"ArrowButton":$("#ctl00_BottomNavigationBar_ArrowButton"),"MenuIframe":$("#ctl00_ContentAreaIframe"),"LeftArea":$("#ctl00_Sidebar"),"LeftMenuToggler":$("#ctl00_BottomNavigationBar_LeftMenuToggler"),"MainSidebar":$(".l-main-sidebar")}, {"IsIosDevice":false,"TopmenuExpanded":true,"SetIframeDefaultHeightFunctionName":"setIframeDefaultHeight","UseLeftmenuToggler":false,"LeftMenuExpanded":true,"ClientIds":{"TopMenuArea":"l-header","BottomNavigationBarWrapper":"l-quick-orientation","TopNavigationContainer":"ctl00_TopNavigationContainer","CourseOverviewBackLinkContainer":null,"LeftArea":"ctl00_Sidebar","TreeMenu":"ctl00_TreeMenu_ViewPort","ContentAreaIframe":"ctl00_ContentAreaIframe"},"CssClasses":{"ArrowUp":"h-arrow-up","ArrowDown":"h-arrow-down","DesktopLeftmenuVisible":"l-desktop-leftmenu-visible","DesktopLeftmenuHidden":"l-desktop-leftmenu-hidden","DesktopLefttoggleExpand":"l-desktop-lefttoggle-expand","DesktopLefttoggleCollapse":"l-desktop-lefttoggle-collapse","MobileLeftmenuVisible":"l-mobile-leftmenu-visible","MobileLeftmenuHidden":"l-mobile-leftmenu-hidden","MobileLefttoggleExpand":"l-mobile-lefttoggle-expand","MobileLefttoggleCollapse":"l-mobile-lefttoggle-collapse","BreadcrumbsContainer":"l-crumbs-wrapper"},"Terms":{"ClickToMaximise":"Cliquer pour agrandir le menu supérieur","ClickToMinimise":"Cliquer pour réduire le menu supérieur","OpenMenu":"Afficher le menu","HideMenu":"Masquer le menu"},"Urls":{"ToggleTopMenuState":"/TopMenu/TopMenu/ToggleState?show=True","ToggleLeftMenuState":"/LeftMenu/LeftMenu/ToggleState?show=True"},"IsEmbedded":false});});//]]>
+</script>
+</form>
+
+    <script>
+        CommonFunctions.attachPostMessageEventListener($(window), ['registerExtraNavBar', 'unregisterExtraNavBar'], function(data, source) {
+            var addedNavBar = (data.messageName === 'registerExtraNavBar');
+            $('.l-main-content-header, #l-header').toggleClass("l-extra-nav-bar", addedNavBar);
+            CommonFunctions.makePostMessageCall(source, new CommonWindowMessages.GenericMessage(data.messageName));
+        });
+        CommonFunctions.attachPostMessageEventListener($(window), 'GetWindowLocationUrl', function (data, source) {
+            var message = {
+                messageName: 'GetWindowLocationUrl',
+                origin: window.location.protocol + '//' + window.location.host
+            };
+            CommonFunctions.makePostMessageCall(source, message);
+        });
+        CommonFunctions.attachPostMessageEventListener($(window), 'GetIframeScrollPosition', function (data, source) {
+            var message = {
+                messageName: 'GetIframeScrollPosition',
+                position: window.top.pageYOffset
+            };
+            CommonFunctions.makePostMessageCall(source, message);
+        });
+        attachSetIFrameTitlePostMessageEventListener('ctl00_ContentAreaIframe');
+
+        window[CCL.CommonWindowMessages.MessageNames.suspendUpdateBreadCrumbsAndNavigation] = false;
+        CommonFunctions.attachPostMessageEventListener($(window), CCL.CommonWindowMessages.MessageNames.suspendUpdateBreadCrumbsAndNavigation, function(data) {
+            window[CCL.CommonWindowMessages.MessageNames.suspendUpdateBreadCrumbsAndNavigation] = data.extendedData.suspend;
+        });
+
+        window[CCL.CommonWindowMessages.MessageNames.suspendExpandCollaplseContentAreaFrame] = false;
+        CommonFunctions.attachPostMessageEventListener($(window), CCL.CommonWindowMessages.MessageNames.suspendExpandCollaplseContentAreaFrame, function(data) {
+            window[CCL.CommonWindowMessages.MessageNames.suspendExpandCollaplseContentAreaFrame] = data.extendedData.suspend;
+        });
+
+        CommonFunctions.attachPostMessageEventListener($(window), ['showBottomNavigationBar', 'hideBottomNavigationBar'],
+            function(data) {
+                var topNavigationContainer = $('#ctl00_TopNavigationContainer');
+
+                    function hideQuickNavigationBar() {
+                        topNavigationContainer.addClass('l-main-content-header-no-bottom-margin');
+                        $("#l-quick-orientation").hide();
+                    }
+
+                    function showQuickNavigationBar() {
+                        topNavigationContainer.removeClass('l-main-content-header-no-bottom-margin');
+                        $("#l-quick-orientation").show();
+                    }
+
+                    if (data.messageName === 'showBottomNavigationBar') {
+                        showQuickNavigationBar();
+                    } else {
+                        hideQuickNavigationBar();
+                    }
+                });
+
+        CommonFunctions.attachPostMessageEventListener($(window), 'setPopStatePropagationToBottom', function (data, source) {
+            window.addEventListener('popstate', function () {
+                var message = {
+                    messageName: 'handlePopStateFromTop'
+                };
+                CommonFunctions.makePostMessageCall(source, message);
+            });
+        });
+
+        if ( itslTop.history.state ) {
+            SelectCurrentMenuItem( itslTop.history.state.menuItem );
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const skiplink = document.querySelector('#skipToContent');
+
+            if (skiplink) {
+                skiplink.addEventListener('click', () => {
+                    document.querySelector('#ctl00_ContentAreaIframe').contentWindow.focus();
+                })
+            }
+        });
+    </script>
+
+    
+
+        <div id="profileCard"></div>
+
+      
+	<script src="https://cdn.itslearning.com/v3.128.6.630/javascript/Controls/MainMenuDropDown.js"></script>
+    
+    <div id="AutoLogout">
+        <script>
+            window.autologout = function () { LogOut(); };
+            window.AutoLogout={"antiForgeryHeaderName":"__ITSL_ANTIFORGERY_TOKEN__","antiForgeryHeaderValue":"mkaWDax82AEDWg0DABV6HABxNHZiNGhsaXhiM2tsY2xqcHZycnoyMnb48OORqjH1rP327fhv/UIPvnMOhlYIKjNd8UzxsYecqmFTVm4PfacteHugs080yyWRfrrymdkQNqrCSDgs1bOP","i18n":{"autologout_dialog_heading":"Vous souhaitez rester connecté ?","autologout_dialog_text":"Vous êtes resté inactif pendant un certain temps et vous serez déconnecté dans {0} minutes.","autologout_dialog_stay_logged_in_button_text":"Restez connecté"},"logoutFunctionName":"autologout","settings":{"idleTimeBeforeAutoLogoutInMinutes":60,"timeToPreventAutoLogoutInMinutes":20}}
+        </script>
+    </div>
+    <script type="module" src="https://cdn.itslearning.com/v3.128.6.630/application/autologout/index.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdn.itslearning.com/v3.128.6.630/application/autologout/modern.bundle.css">
+    
+    <link rel="stylesheet" href="https://cdn.itslearning.com/v3.128.6.630/Skins/JQuery/theme/jquery-ui-1.11.4.custom.css" />
+    <link href='https://cdn.itslearning.com/v3.128.6.630/skins/itsl-inuit.min.css' rel="stylesheet" />
+</body>
+</html>
